@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=LDS
+comment0.text=\r\n\ UniUd\ -\ Programmazione\ e\ laboratorio\ -\ 2022-23\r\n\ 154255\ -\ Tavano\ Matteo\r\n\ Esercitazione\ 7\ in\ Java\r\n
+comment1.params=s
+comment1.target=int\ llis(int[])
+comment1.text=\r\n\ \ \ 1.\ Sottosequenza\ decrescente\ pi\u00F9\ lunga\r\n\ \ \ \ \ \ Questo\ problema\ si\ formula\ in\ termini\ analoghi\ a\ quello\ della\ sottosequenza\ crescente\ pi\u00C3\u00B9\ lunga,\ salvo\ che,\ come\r\n\ \ \ \ \ \ indicato\ dalla\ denominazione,\ gli\ elementi\ considerati\ devono\ costituire\ una\ sottosequenza\ strettamente\ decrescente,\r\n\ \ \ \ \ \ anzich\u00E8\ crescente,\ nel\ rispetto\ dell'ordine\ in\ cui\ compaiono\ in\ s.\r\n\ \ \ \ \ \ Modifica\ e/o\ integra\ il\ programma\ riportato\ sopra\ e\ scrivi\ un\ corrispondente\ programma\ ricorsivo\ per\ determinare\ la\r\n\ \ \ \ \ \ lunghezza\ della\ sottosequenza\ decrescente\ pi\u00F9\ lunga\ (llds).\r\n
+comment2.params=s\ i\ t
+comment2.target=int\ llisRec(int[],\ int,\ int)
+comment3.params=s
+comment3.target=int\ valoreMax(int[])
+comment4.params=s
+comment4.target=int\ llds(int[])
+comment5.params=s\ i\ t
+comment5.target=int\ lldsRec(int[],\ int,\ int)
+comment6.params=s
+comment6.target=int[]\ ldsDP(int[])
+comment6.text=\r\n\ \ \ 2.\ Applicazione\ della\ tecnica\ di\ programmazione\ dinamica\ bottom-up\r\n\ \ \ \ \ \ Riutilizza\ il\ codice\ del\ programma\ che\ risolve\ il\ problema\ proposto\ al\ punto\ 2\ dell\u00E2\u20AC\u2122esercitazione\ del\ 5/05/2021\r\n\ \ \ \ \ \ (Progetto\ \u00E2\u20AC\u0153Longest\ Increasing\ Subsequence\u00E2\u20AC?\ \u00E2\u20AC\u201C\ II),\ apportandovi\ le\ opportune\ modifiche\ e/o\ integrazioni,\ per\r\n\ \ \ \ \ \ determinare\ una\ sottosequenza\ decrescente\ pi\u00C3\u00B9\ lunga\ (lds).\ Il\ programma\ deve\ avere\ una\ struttura\ analoga\ a\ quella\r\n\ \ \ \ \ \ impostata\ nell\u00E2\u20AC\u2122esercitazione\ precedente,\ suddivisa\ in\ una\ prima\ fase\ per\ registrare\ in\ una\ matrice\ i\ risultati\ delle\r\n\ \ \ \ \ \ ricorsioni\ relative\ al\ programma\ originale,\ seguita\ da\ una\ seconda\ fase\ che\ consente\ di\ ricostruire\ una\ soluzione\r\n\ \ \ \ \ \ attraverso\ un\ percorso\ fra\ gli\ elementi\ della\ matrice.\r\n
+numComments=7

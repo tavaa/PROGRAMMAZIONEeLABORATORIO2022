@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=StringSList
+comment0.text=\r\n\ UniUd\ -\ Programmazione\ e\ laboratorio\ -\ 2022-23\r\n\ 154255\ -\ Tavano\ Matteo\r\n\ Esercitazione\ 2\ in\ Java\r\n
+comment1.params=
+comment1.target=StringSList()
+comment10.params=sl
+comment10.target=StringSList\ append(StringSList)
+comment11.params=
+comment11.target=StringSList\ reverse()
+comment12.params=sl
+comment12.target=StringSList\ reverseTR(StringSList)
+comment13.params=
+comment13.target=java.lang.String\ toString()
+comment13.text=\ ---\ Rappresentazione\ testuale\ (String)\ di\ una\ lista\r\n\ toString\ ha\ importanza\ in\ Java,\ ci\ presenta\ una\ \r\n\ rappresentazione\ minimale\ dell'oggetto\ in\ questione,\ se\ io\ chiedo\r\n\ di\ stampare\ in\ console\ la\ stringa\ mi\ accorgo\ subito\ della\ sua\r\n\ utilit\u00E0\r\n\ \ \r\n\ \ \ \ public\ String\ toString()\ {\ \ \ \ \ \ \ \ \ //\ ridefinizione\ del\ metodo\ generale\r\n\ \ \ \ \ \ \ \ if\ (\ isEmpty\ )\ {\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ per\ la\ visualizzazione\ testuale\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ "()";\r\n\ \ \ \ \ \ \ \ }\ else\ if\ (\ rest.isNull()\ )\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ "("\ +\ first\ +\ ")";\ \ //\ ->\ il\ +\ trasforma\ direttamente\r\n\ \ \ \ \ \ \ \ }\ else\ {\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ \ \ \ nella\ stringa\ in\ base\ 10\ in\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ String\ rep\ \=\ "("\ +\ first;\ \ //\ \ \ \ questo\ caso\r\n\ \ \ \ \ \ \ \ \ \ \ \ IntSList\ r\ \=\ rest;\r\n\ \ \ \ \ \ \ \ \ \ \ \ while\ (\ \!r.isNull()\ )\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ rep\ \=\ rep\ +\ ",\ "\ +\ r.car();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ r\ \=\ r.cdr();\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ (\ rep\ +\ ")"\ );\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\r\n
+comment2.params=e\ sl
+comment2.target=StringSList(java.lang.String,\ StringSList)
+comment3.params=
+comment3.target=boolean\ isNull()
+comment4.params=
+comment4.target=java.lang.String\ car()
+comment5.params=
+comment5.target=StringSList\ cdr()
+comment6.params=e
+comment6.target=StringSList\ cons(java.lang.String)
+comment7.params=
+comment7.target=int\ length()
+comment8.params=k
+comment8.target=java.lang.String\ listRef(int)
+comment9.params=sl
+comment9.target=boolean\ equals(StringSList)
+numComments=14

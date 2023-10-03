@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=LIS
+comment0.text=\r\n\ UniUd\ -\ Programmazione\ e\ laboratorio\ -\ 2022-23\r\n\ 154255\ -\ Tavano\ Matteo\r\n\ Esercitazione\ 5\ in\ Java\r\n
+comment1.params=s
+comment1.target=int\ llis(int[])
+comment2.params=s\ i\ t
+comment2.target=int\ llisRec(int[],\ int,\ int)
+comment3.params=s
+comment3.target=int\ llisMem1(int[])
+comment3.text=\r\n\ \ 1.\ Applicazione\ della\ tecnica\ top-down\ di\ memoization\ in\ situazioni\ semplificate\r\n\ \ \ \ \ Assumi\ provvisoriamente\ che\ tutti\ gli\ elementi\ di\ una\ sequenza\ di\ lunghezza\ n\ siano\ minori\ o\ ugali\ a\ n\ e\ scrivi\ un\r\n\ \ \ \ \ programma\ equivalente\ che\ applica\ la\ tecnica\ top-down\ di\ memoization\ per\ realizzare\ una\ versione\ pi\u00C3\u00B9\ efficiente\ di\r\n\ \ \ \ \ llis,\ registrando\ i\ risultati\ delle\ invocazioni\ ricorsive\ di\ llisRec\ ai\ fini\ di\ un\ potenziale\ riutilizzo.\ Verifica\ quindi\r\n\ \ \ \ \ che\ i\ risultati\ ottenuti\ siano\ coerenti\ con\ i\ valori\ calcolati\ dal\ programma\ riportato\ sopra\ (a\ tal\ fine,\ una\ parte\ degli\r\n\ \ \ \ \ esempi\ non\ possono\ essere\ usati\ per\ la\ verifica\ poich\u00C3\u00A9\ incompatibili\ con\ l\u00E2\u20AC\u2122assunzione\ fatta).\r\n
+comment4.params=s\ i\ t\ mem
+comment4.target=int\ llisMemRec1(int[],\ int,\ int,\ int[][])
+comment5.params=s
+comment5.target=int\ llisMem2(int[])
+comment5.text=\r\n\ \ \ 2.\ Applicazione\ della\ tecnica\ top-down\ di\ memoization\ in\ casi\ pi\u00C3\u00B9\ generali\r\n\ \ \ \ \ \ Estendi\ ora\ il\ programma\ che\ applica\ la\ tecnica\ top-down\ di\ memoization\ ai\ casi\ pi\u00C3\u00B9\ generali\ in\ cui\ gli\ elementi\ della\r\n\ \ \ \ \ \ sequenza\ possano\ assumere\ qualunque\ valore\ intero\ (di\ tipo\ int)\ rappresentabile\ e\ verifica\ che\ i\ risultati\ ottenuti\ siano\r\n\ \ \ \ \ \ sempre\ coerenti\ con\ i\ valori\ calcolati\ dal\ programma\ riportato\ sopra.\r\n\ \ \ \ \ \ Suggerimento.\r\n\ \ \ \ \ \ -\ Poich\u00E8\ in\ generale\ il\ terzo\ argomento\ di\ llisRec\ pu\u00C3\u00B2\ assumere\ valori\ molto\ grandi,\ non\ \u00C3\u00A8\ ragionevole\r\n\ \ \ \ \ \ utilizzare\ i\ valori\ di\ t\ direttamente\ come\ indici\ di\ array,\ cosa\ che\ richiederebbe\ di\ allocare\ uno\ spazio\ in\r\n\ \ \ \ \ \ memoria\ di\ estensione\ esorbitante.\ Tuttavia\ \u00C3\u00A8\ evidente\ che\ t\ \u00C3\u00A8\ zero\ oppure\ \u00C3\u00A8\ il\ valore\ di\ un\ elemento\ della\r\n\ \ \ \ \ \ sequenza\ s,\ nel\ qual\ caso\ lo\ si\ pu\u00C3\u00B2\ rappresentare\ indirettamente\ attraverso\ la\ posizione\ di\ quella\ componente.\r\n\ \ \ \ \ \ -\ Inoltre,\ il\ caso\ t\ \=\ 0\ pu\u00C3\u00B2\ essere\ a\ sua\ volta\ rappresentato\ indirettamente\ utilizzando\ un\ intero\ diverso\ dagli\ indici\r\n\ \ \ \ \ \ della\ sequenza,\ per\ esempio\ n\ (non\ appartiene\ [0,\ n-1]).\r\n\ \ \ \ \ \ -\ Alla\ luce\ delle\ osservazioni\ precedenti,\ al\ fine\ di\ rielaborare\ il\ programma\ attraverso\ una\ tecnica\ di\r\n\ \ \ \ \ \ memoization,\ si\ pu\u00C3\u00B2\ sostituire\ il\ parametro\ della\ proceedura\ ricorsiva\ corrispondente\ a\ t\ (rappresentato\r\n\ \ \ \ \ \ direttamente)\ con\ un\ indice\ j\ compreso\ nell\u00E2\u20AC\u2122intervallo\ [0,\ n]\ (che\ rappresenta\ t\ indirettamente).\ A\ partire\r\n\ \ \ \ \ \ dall\u00E2\u20AC\u2122indice\ j\ sar\u00C3\u00A0\ comunque\ possibile\ risalire\ facilmente\ al\ valore\ della\ soglia\ t,\ sulla\ base\ dell\u00E2\u20AC\u2122interpretazione\r\n\ \ \ \ \ \ t\ \=\ s[j]\ se\ 0\ <\=\ j\ <\ n,\ oppure\ t\ \=\ 0\ se\ j\ \=\ n.\r\n
+comment6.params=s\ i\ j\ mem
+comment6.target=int\ llisRec2(int[],\ int,\ int,\ int[][])
+numComments=7

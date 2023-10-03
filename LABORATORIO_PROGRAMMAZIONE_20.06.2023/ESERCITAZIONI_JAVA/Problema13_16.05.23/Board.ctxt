@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Board
+comment1.params=n
+comment1.target=Board(int)
+comment2.params=
+comment2.target=boolean\ isOrdered()
+comment3.params=value
+comment3.target=boolean\ isMovable(int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=value
+comment5.target=void\ move(int)
+comment6.params=
+comment6.target=void\ display()
+comment7.params=
+comment7.target=int\ get()
+numComments=8
